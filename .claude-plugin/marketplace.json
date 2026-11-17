@@ -1,0 +1,5 @@
+{
+  "name": "tema-mobilemed",
+  "owner": { "name": "lucasentz-mobilemed" },
+  "plugins": [{ "name": "tema-mobilemed", "source": "./" }]
+}
