@@ -17,10 +17,10 @@ import { makeColors } from './make-colors.js'
 // Fonte não entra: o tema do app só aceita cores e fundo.
 const BOTAO = { 400: '#0077e7', 450: '#006fd6' }
 // Balão da mensagem do usuário no estilo do botão "Saiba mais" do site: borda ciano
-// sólida e fundo de ciano escurecido (#00bbfe a 18%: no escuro vira perto de #00222e,
+// sólida e fundo de ciano escurecido (#00bbfe a 10%: no escuro vira perto de #001319,
 // no claro um ciano bem claro, e o texto fica legível nos dois).
 const BALAO_BORDA = '#00bbfe'
-const BALAO_FUNDO = '#00bbfe2e'
+const BALAO_FUNDO = '#00bbfe1a'
 // O nome da cena leva uma impressão digital do desenho: cada versão nova do fundo
 // ganha outro nome, e o app redesenha em vez de reaproveitar a versão antiga.
 function impressao(texto: string): string {
